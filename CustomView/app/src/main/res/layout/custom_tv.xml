@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xmlns:custom="http://schemas.android.com/apk/res/com.example.chenxia.widget"-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.chenxiao.customview.widgets.CircleTextView
+        android:id="@+id/custom_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:textColor="#000000"
+        custom:text="1"
+        custom:backGroundColor="#ff0000"
+        custom:textSize="14sp"
+        android:layout_centerInParent="true"
+        />
+    <com.chenxiao.customview.widgets.CircleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:textColor="#000000"
+        custom:backGroundColor="#00ff00"
+        custom:textSize="14sp"
+        android:layout_centerInParent="true"
+        custom:text="22"
+        />
+    <com.chenxiao.customview.widgets.CircleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:textColor="#000000"
+        custom:text="333"
+        custom:backGroundColor="#0000ff"
+        custom:textSize="14sp"
+        android:layout_centerInParent="true"
+        />
+    <com.chenxiao.customview.widgets.CircleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:textColor="#000000"
+        custom:text="4444"
+        custom:backGroundColor="#ffff00"
+        custom:textSize="14sp"
+        android:layout_centerInParent="true"
+        />
+    <com.chenxiao.customview.widgets.CircleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:textColor="#000000"
+        custom:text="55555"
+        custom:backGroundColor="#00ffff"
+        custom:textSize="14sp"
+        android:layout_centerInParent="true"
+        />
+    <com.chenxiao.customview.widgets.CircleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:textColor="#000000"
+        custom:text="666666"
+        custom:backGroundColor="#ff00ff"
+        custom:textSize="14sp"
+        android:layout_centerInParent="true"
+        />
+    <com.chenxiao.customview.widgets.CircleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:textColor="#000000"
+        custom:backGroundColor="#dddddd"
+        custom:textSize="14sp"
+        android:layout_centerInParent="true"
+        />
+
+</LinearLayout>
